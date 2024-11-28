@@ -7,7 +7,7 @@ local config = wezterm.config_builder()
 -- For example, changing the color scheme:
 local appearance_themes = {
 	Light = "One Light (base16)",
-	Dark = "dark_theme",
+	Dark = "tokyonight_night",
 }
 local appearance = wezterm.gui.get_appearance()
 config.color_scheme = appearance_themes[appearance]
