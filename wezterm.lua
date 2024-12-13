@@ -26,6 +26,11 @@ act = wezterm.action
 
 config.keys = {
 	{
+		key = "k",
+		mods = "CMD",
+		action = act.ClearScrollback("ScrollbackAndViewport"),
+	},
+	{
 		key = "raw:36",
 		mods = "CMD|SHIFT",
 		action = act.TogglePaneZoomState,
